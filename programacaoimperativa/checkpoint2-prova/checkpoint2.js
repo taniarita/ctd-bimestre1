@@ -1,8 +1,3 @@
-// 2 ͦ Checkpoint de programação imperativa
-// Olá, você foi contratado para executar este projeto. É importante que você analise, entenda o pedido do cliente e desenvolva conforme solicitado. Veja abaixo os requisitos do projeto:
-
-// - Precisamos desenvolver um menu para um microondas super veloz, onde teremos 5 opções de comida com seus respectivos tempos pré-definidos. 
-
 // 1 - Pipoca – 10 segundos (padrão);
 // 2 - Macarrão – 8 segundos (padrão);
 // 3 - Carne – 15 segundos (padrão);
