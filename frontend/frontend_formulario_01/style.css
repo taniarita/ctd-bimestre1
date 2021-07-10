@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif; 
+    box-sizing: border-box;  
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    border: 2px solid #E3E4E6; 
+    border-radius: 13px;
+    width: 400px;
+    padding: 60px 30px;
+    margin: 100px auto;  /* Em relação a main(tag pai de container), o auto coloca uma margem automática nos lados esquerdo e direito da página. Já, o primeiro valor de 100px,é a distância do formulário do topo da página */
+    background-color: #E6E7E8;
+}
+
+/* PROPRIEDADES E TRANSIÇÕES DA IMAGEM */
+
+img {
+    display: block;
+    width: 60%; /* 75% em relação as medida de container (sua tag pai) que é de 500px */
+    margin: 10px auto 30px;
+    border-radius: 70%;
+}
+
+img:hover {
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+img:active {
+    transform: rotate(360deg);
+}
+
+/* PROPRIEDADES E VALORES DO LABEL */
+
+label{
+    font-size: 14px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 5px;
+    
+} 
+
+/* PROPRIEDADES E TRANSIÇÕES DO INPUT */
+
+input {
+    font-style: italic;
+    padding: 7px; /* distância do conteúdo que será digitado da borda do input */
+    border: solid 1px #dbdbdc;
+    color:#000000 ;
+    height: 45px;
+    width: 100%;    
+    border-radius: 7px;
+} 
+
+input:focus {
+    border-color:rgb(251, 255, 0);
+    font-weight: 600;
+    font-style: normal;
+}
+
+input:invalid {
+    background-color: red;
+}
+
+.actions {
+    width: 90%; /* como está dentro de container, que tem largura 400px, definir uma porcentagem de largura dentro da tag pai para conseguir dar a margin auto */
+    margin: 10px auto;
+}
+
+input:active {
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+/* PROPRIEDADES E TRANSIÇÕES DOS BOTÕES */
+
+button {
+    font-weight: bolder;
+    font-size: 14px;
+    border-style: none;
+    border-radius: 8px;
+    width: 145px;
+    height: 40px;
+    background-color: #19e1e4;
+    transition: background-color, 0.5s;
+    color: rgb(21, 31, 31);
+}
+
+button:hover {
+    background-color: #39fa3f;
+}
+
+button:active {
+    transform: scale(1.15);
+    color: rgb(5, 62, 167);
+}
+
+.btn-cadastrar {
+    margin-left: 8px; /* Para afastar um button do outro */
+}
+
+
+
+
+
+
+
+
+
+
+
