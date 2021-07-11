@@ -1,0 +1,8 @@
+# CTD_bimestre1
+
+REPOSITÓRIO COM OS EXERCÍCIOS DO PRIMEIRO BIMESTRE DO ANO 1 DO CERTIFIED TECH DEVELOPER
+
+- Programação Imperativa:
+
+
+- FrontEnd:
