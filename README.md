@@ -1,6 +1,6 @@
 # CTD_bimestre1
 
-REPOSITÓRIO COM OS EXERCÍCIOS DO PRIMEIRO BIMESTRE DO ANO 1 DO CERTIFIED TECH DEVELOPER
+Repositório com os exercícios do PRIMEIRO bimestre do ANO 1 do CERTIFIED TECH DEVELOPER
 
 - Programação Imperativa:
 
