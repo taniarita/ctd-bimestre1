@@ -8,7 +8,7 @@ Repositório com os exercícios do PRIMEIRO bimestre do ANO 1 do CERTIFIED TECH 
 - FrontEnd (GitPages):
 
       - frontend_formulario_01: 
-      https://taniarita.github.io/CTD_bimestre1/frontend/frontend_formulario_01/cadastro.html 
+      https://taniarita.github.io/CTD_bimestre1/frontend/frontend_formulario_01/index.html 
       
       - frontend_formulario_02:
       https://taniarita.github.io/CTD_bimestre1/frontend/frontend_formulario_02/index.html
