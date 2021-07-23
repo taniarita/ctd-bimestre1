@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    font-family:'Roboto', sans-serif; 
+}
+
+.header {
+    background-color:white;
+    padding: 30px;
+    position: fixed;
+    width: 100%; 
+    box-shadow: 0 4px 7px -2px blueviolet;   /* divisão do menu com a imagem quando desce, com uma sombrinha */
+    display: flex; /* permite controle do layout de forma mais flexivel */
+    justify-content: space-between; /* pega todos os elementos dentro do header, que é flexbox, e coloca o mesmo espaço entre eles.*/
+    align-items: center;
+}
+
+.header > nav {
+    display: inline-block;
+}
+
+.logoBlog {
+    width: 60px;
+}
+
+.menu {
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.menuItem {
+    margin-left: 10px;
+    border: 1px solid #bbbbbb;
+    padding: 5px 10px;
+}
+
+.menuItem > a {
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    padding-top: 90px;
+}
+
+.main {
+    margin-top: 50px; /*o elemento de cima nao empurra o de baixo, é o elemento de baixo que se afasta do de cima, assim como é o elemento da direita que se afasta da esquerda dando margem pra esquerda */
+    padding: 0 10%;
+}
+.main > h1 {
+    font-size: 100px;
+}
+
+.destaque {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagemDestaque {
+    width: 55%;
+    height: 270px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.conteudoDestaque {
+    width: 40%;
+    display: inline-block;
+}
+
+.postsBlog {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin-top: 50px;
+}
+
+.post {
+    width: 45%;
+    margin-bottom: 25px;
+}
+
+.imagemPost {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.whatsapp > img {
+    width: 50px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
